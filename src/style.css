@@ -2,3 +2,7 @@
     color: red;
     background: url('./image.jpg');
 }
+
+.hello img {
+    background-repeat: no-repeat;
+}
