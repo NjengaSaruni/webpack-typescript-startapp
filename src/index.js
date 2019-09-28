@@ -1,5 +1,5 @@
 import './style.css';
-import Image from './image.jpg';
+import myImage from './image.jpg';
 
 function component() {
     const element = document.createElement('div');
@@ -8,10 +8,10 @@ function component() {
     element.classList.add('hello');
 
     // Add an image to the existing div
-    const myImage = new Image();
-    myImage.src = Image;
+    const img = new Image();
+    img.src = myImage;
 
-    element.appendChild(myImage);
+    element.appendChild(img);
 
     return element;
 }
